@@ -913,21 +913,15 @@ border-radius: 0.5em;
     font-size: 1.3em;
 }
 
-.header__footer {
-    width: 1000px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-
 .bar__social {
     color: #d9ad26;
 }
 
 .span__footer {
     font-family: 'Comfortaa';
+}
+.section__social {
+    width: 100%;
 }
 
 .header__footer-content .header__footer .social__networks {
@@ -1086,17 +1080,19 @@ border-radius: 0.5em;
     .site__map-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding: 0 100px;
+    padding: 0 30px;
     }
     
     .header__footer-content .site__map-container .links-item {
         padding: 20px;
     }
     .section__social {
+        width: 100%;
         flex-direction: column;
         text-align: center;
+        padding: 0;
     }
-    
+        
     .header__footer-content .section__social .bar__social {
         padding-bottom: 25px;
     }

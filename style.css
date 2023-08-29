@@ -65,7 +65,7 @@ body {
 .home .section__content header nav {
     position: fixed;
     margin-left: 60px;
-    background-color: blueviolet;
+    background-color: #202020;
     padding: 15px;
     border-radius: 10px;
     text-align: left;
@@ -90,9 +90,9 @@ body {
  .home .section__content header .logo {
     width: 60px;
     height: 60px;
-    border: 2px solid blueviolet;
+    border: 2px solid #d9ad26;
     border-radius: 50%;
-    box-shadow: 0 0 35px blueviolet;
+    box-shadow: 0 0 35px #d9ad26;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,7 +102,7 @@ body {
 }
 
 .home .section__content header .logo .text__logo {
-    color: ghostwhite;
+    color: #d9ad26;
     font-size: 1.5rem;
     font-family: 'Comfortaa';
     font-weight: bold;
@@ -110,18 +110,20 @@ body {
 
 .home .section__content header .nav-bar {
     position: fixed;
-    background-color: blueviolet;
+    background-color: #000;
     font-size: 20px;
     width: 45px;
     height: 45px;
+    border: 2px solid #d9ad26;
     border-radius: 50%;
-    line-height: 50px;
+    line-height: 45px;
+    color: #d9ad26;
     cursor: pointer;
     transition: 0.3s;
 }
 
 .home .section__content header .nav-bar:hover {
-    box-shadow: 0 0 35px #fff;    
+    box-shadow: 0 0 35px #d9ad26;    
 }
 
 .home .section__content .info {
@@ -174,22 +176,23 @@ body {
 }
 
 .home .section__content .info .btn__cv {
-    padding: 7px 15px;
-    background-color: blueviolet;
+    padding: 9px 15px;
+    background-color: #000;
     width: 150px;
     margin: auto;
-    border: 1px solid #7B68EE;
+    border: 1px solid #d9ad26;
     border-radius: 0.3em;
-    box-shadow: 0 0 20px #7B68EE;
+    box-shadow: 0 0 20px #d9ad26;
 }
 
 .home .section__content .info .btn__cv:hover {
-    background-color: #7B68EE;
+    background-color: #101010;
+    color: #bab9b9;
     transition: all 0.3s ease-in-out;
 }
 
 .home .section__content .info .btn__link {
-    color: #fff;    
+    color: #d9ad26;    
     text-decoration: none;
     font-family: 'Comfortaa';
 }

@@ -71,6 +71,7 @@ body {
     text-align: left;
     z-index: 9999;
     display: none;
+    transition: all .3s ease-in-out;
 }
 
 .home .section__content header nav a{

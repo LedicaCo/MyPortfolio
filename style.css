@@ -759,6 +759,7 @@ border-radius: 0.5em;
     background: #101010;
     color: #bab9b9;
     transition: all .3s ease-in-out;
+    cursor: pointer;
     
 }
 

@@ -751,13 +751,15 @@ border-radius: 0.5em;
     color: #d9ad26;
     background-color: #000;
     font-family: 'Comfortaa';
-    font-size: 1em;    
+    font-size: 1em;
+    cursor: pointer;   
 }
 
 .form__contact .section__content .form .form__btn:hover {
     background: #101010;
     color: #bab9b9;
     transition: all .3s ease-in-out;
+    
 }
 
 .link__email {

@@ -548,31 +548,34 @@
             <div class="section__content">
                 <h2 class="section__title">Contact me</h2>
                 <h3>Get in touch right now!</h3>
-                <form class="form">
+                <form class="form" action="https://formsubmit.co/ceise@live.com" method="POST">
                     <div class="form__logo">
                         <span class="text__logo">LD</span>
                     </div>
                     <div class="form-group">
-                        <label class="form-label" for="">Company</label>
-                        <input type="text" class="form-control" id="" placeholder="Enter your company name" required>
+                        <label class="form-label" for="company">Company</label>
+                        <input type="text" class="form-control" name="company" id="company" placeholder="Enter your company name" required>
                       </div><br>
                       <div class="form-group">
-                        <label class="form-label" for="">Name and surename</label>
-                        <input type="text" class="form-control" id="" placeholder="Write your full name" required>
+                        <label class="form-label" for="fullName">Name and surename</label>
+                        <input type="text" class="form-control" name="fullName" id="fullName" placeholder="Write your full name" required>
                       </div><br>
                       <div class="form-group">
-                          <label class="form-label" for="">Email</label>
-                          <input type="email" class="form-control" id="" placeholder="Enter email" required>
+                          <label class="form-label" for="email">Email</label>
+                          <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" required>
                         </div><br>
                         <div class="form-group">
-                          <label class="form-label" for="">Contact number</label>
-                          <input type="email" class="form-control" id="" placeholder="Enter your contact number"required>
+                          <label class="form-label" for="phone">Contact number</label>
+                          <input type="text" class="form-control" name="phone" id="phone" placeholder="Enter your contact number"required>
                         </div><br>
                         <div class="form-group">
-                          <label class="form-label" for="">Message</label>
-                          <textarea class="form-control" id="" placeholder="Write your message" rows="5" required></textarea>
+                          <label class="form-label" for="msg">Message</label>
+                          <textarea class="form-control" name="msg" id="msg" placeholder="Write your message" rows="5" required></textarea>
+                          <!-- <input type="hidden" name="_next" value="https://https://my-portfolio-six-snowy.vercel.app/thanks.html"> -->
+                          <input type="hidden" name="_blacklist" value="spammy pattern, banned term, phrase">
+                          <input type="hidden" name="_captcha" value="false">
                         </div><br><br>
-                    <button type="submit" class="form__btn">Send Message</button>
+                    <button type="submit" value="send" class="form__btn">Send Message</button>
                 </form>
             </div>
         </section>

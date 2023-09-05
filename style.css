@@ -367,6 +367,11 @@ flex-direction: column;
     /* border-radius: 50%; */     
 }
 
+.icon__title {
+    color: ghostwhite;
+    font-family: 'Comfortaa';
+}
+
 .bx-icon-react {
     font-size: 80px;
     color: #61DBFB;
@@ -424,6 +429,43 @@ flex-direction: column;
     /* border-radius: 50%; */
     transition: all .2s ease;    
 }
+
+.bx-icon-nextjs {
+    width: 80px;
+    padding: 10px;
+    color: #6495ED;
+    text-align: center;
+}
+.bx-icon-nextjs:hover {
+    /* box-shadow: 0 0 35px #6495ED; */ 
+    /* border-radius: 50%; */
+    transition: all .2s ease;    
+}
+
+.bx-icon-jestjs {
+    width: 80px;
+    padding: 10px;
+    color: #6495ED;
+    text-align: center;
+}
+.bx-icon-jestjs:hover {
+    /* box-shadow: 0 0 35px #6495ED; */ 
+    /* border-radius: 50%; */
+    transition: all .2s ease;    
+}
+
+.bx-icon-postgres {
+    width: 80px;
+    padding: 10px;
+    color: #6495ED;
+    text-align: center;
+}
+.bx-icon-postgres:hover {
+    /* box-shadow: 0 0 35px #6495ED; */ 
+    /* border-radius: 50%; */
+    transition: all .2s ease;    
+}
+
 
 
 

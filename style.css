@@ -373,8 +373,9 @@ flex-direction: column;
 }
 
 .bx-icon-react {
-    font-size: 80px;
+    font-size: 60px;
     color: #61DBFB;
+    
     text-align: center;
     align-items: center;
 }
@@ -385,7 +386,7 @@ flex-direction: column;
 }
 
 .bx-icon-redux {
-    font-size: 80px;
+    font-size: 60px;
     color: #764abc;
     text-align: center;
 }
@@ -396,7 +397,7 @@ flex-direction: column;
 }
 
 .bx-icon-nodejs {
-    font-size: 80px;
+    font-size: 70px;
     color: #808080;
     text-align: center;
 }
@@ -407,7 +408,7 @@ flex-direction: column;
 }
 
 .bx-icon-sequelize {
-    width: 80px;
+    width: 70px;
     padding: 5px;
     color: #6495ED;
     text-align: center;
@@ -419,7 +420,7 @@ flex-direction: column;
 }
 
 .bx-icon-javascript {
-    width: 80px;
+    width: 70px;
     padding: 10px;
     color: #6495ED;
     text-align: center;
@@ -431,7 +432,7 @@ flex-direction: column;
 }
 
 .bx-icon-nextjs {
-    width: 80px;
+    width: 70px;
     padding: 10px;
     color: #6495ED;
     text-align: center;
@@ -443,7 +444,7 @@ flex-direction: column;
 }
 
 .bx-icon-jestjs {
-    width: 80px;
+    width: 70px;
     padding: 10px;
     color: #6495ED;
     text-align: center;
@@ -455,12 +456,120 @@ flex-direction: column;
 }
 
 .bx-icon-postgres {
-    width: 80px;
+    width: 70px;
     padding: 10px;
     color: #6495ED;
     text-align: center;
 }
 .bx-icon-postgres:hover {
+    /* box-shadow: 0 0 35px #6495ED; */ 
+    /* border-radius: 50%; */
+    transition: all .2s ease;    
+}
+
+.bx-icon-vitejs {
+    width: 70px;
+    padding: 10px;
+    color: #6495ED;
+    text-align: center;
+}
+.bx-icon-vitejs:hover {
+    /* box-shadow: 0 0 35px #6495ED; */ 
+    /* border-radius: 50%; */
+    transition: all .2s ease;    
+}
+
+.bx-icon-typescript {
+    width: 70px;
+    padding: 7px;
+    color: #6495ED;
+    text-align: center;
+}
+.bx-icon-typescript:hover {
+    /* box-shadow: 0 0 35px #6495ED; */ 
+    /* border-radius: 50%; */
+    transition: all .2s ease;    
+}
+
+.bx-icon-mysql {
+    width: 70px;
+    padding: 10px;
+    color: #6495ED;
+    text-align: center;
+}
+.bx-icon-mysql:hover {
+    /* box-shadow: 0 0 35px #6495ED; */ 
+    /* border-radius: 50%; */
+    transition: all .2s ease;    
+}
+
+.bx-icon-github {
+    width: 70px;
+    padding: 10px;
+    color: #6495ED;
+    text-align: center;
+}
+.bx-icon-github:hover {
+    /* box-shadow: 0 0 35px #6495ED; */ 
+    /* border-radius: 50%; */
+    transition: all .2s ease;    
+}
+
+.bx-icon-git {
+    width: 80px;
+    padding: 10px;
+    color: #6495ED;
+    text-align: center;
+}
+.bx-icon-git:hover {
+    /* box-shadow: 0 0 35px #6495ED; */ 
+    /* border-radius: 50%; */
+    transition: all .2s ease;    
+}
+
+.bx-icon-bootstrap {
+    width: 70px;
+    padding: 10px;
+    color: #6495ED;
+    text-align: center;
+}
+.bx-icon-bootstrap:hover {
+    /* box-shadow: 0 0 35px #6495ED; */ 
+    /* border-radius: 50%; */
+    transition: all .2s ease;    
+}
+
+.bx-icon-corel {
+    width: 70px;
+    padding: 10px;
+    color: #6495ED;
+    text-align: center;
+}
+.bx-icon-corel:hover {
+    /* box-shadow: 0 0 35px #6495ED; */ 
+    /* border-radius: 50%; */
+    transition: all .2s ease;    
+}
+
+.bx-icon-css-3 {
+    width: 80px;
+    padding: 10px;
+    color: #6495ED;
+    text-align: center;
+}
+.bx-icon-css-3:hover {
+    /* box-shadow: 0 0 35px #6495ED; */ 
+    /* border-radius: 50%; */
+    transition: all .2s ease;    
+}
+
+.bx-icon-html-5 {
+    width: 80px;
+    padding: 17px;
+    color: #6495ED;
+    text-align: center;
+}
+.bx-icon-html-5:hover {
     /* box-shadow: 0 0 35px #6495ED; */ 
     /* border-radius: 50%; */
     transition: all .2s ease;    
@@ -1183,19 +1292,7 @@ border-radius: 0.5em;
 /*--SECTION RESPONSIVE --*/
 @media screen and (max-width:800px) {
     .skills .section__content .row {
-        display: block;        
-    }
-    
-    .skills .section__content .row .col {
-        width: 100%;
-        text-align: center;
-    }
-    .skills .section__content .row .col .cont__bar {
-        justify-content: center;
-    }
-    
-    .skills .section__content .bar .e {
-        width: 12px;
+        width: 100%;        
     }
     
     .aboutme .section__content .row {

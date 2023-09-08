@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Yellowtail&display=swap');
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Comfortaa';
+}
+li {
+    list-style: none;
+    line-height: 3rem;
+}
+
+.btn-menu {
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    left: 260px;
+    font-size: 2rem;
+    position:fixed;
+    background: #101010;
+    color: #d9ad26;
+    border: .3px solid #d9ad26;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 11000;
+}
+.btn-menu:hover {
+    box-shadow: 0 0 25px #d9ad26;
+    transition: all .3s ease;
+}
+
+.header-brand {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    font-size: 2.1rem;
+    color: #d9ad26;
+    font-family: 'Comfortaa';
+}
+.title {
+    font-size: .95rem;
+    text-align: center;
+    font-family: 'Comfortaa';
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #000000;
+    position: fixed;
+    z-index: 10000;
+}
+
+/* NAVBAR */
+
+.navbar-nav {
+    margin-top: 50px;
+    font-family: 'Comfortaa';
+}
+.navbar-list {
+    margin-left: 25px;
+}
+.navbar-item {
+    color: #bab9b9;
+    display: flex;
+    align-items: center;
+}
+.navbar-item:hover {
+    color: #d9ad26;
+    font-size: 1.05em;
+    transition: all .3s ease;
+    
+}
+
+.navbar-item-text {
+    font-family: 'Comfortaa';
+}
+.icon {
+    color: #d9ad26;
+    font-size: 1.2em;
+}
+
+/* MULTI LANGUAGE */
+
+.language {
+    margin-left: 25px;
+    margin-top: 20px;
+    
+}
+
+.language-label {
+    font-size: .8rem;
+    font-family: 'Comfortaa';
+}
+
+.input-select {
+    outline: none;
+    border: none;
+    background: #202020;
+    color: #bab9b9;
+    border-radius: 3px;
+    font-family: 'Comfortaa';
+}
+
+.input-option {
+    outline: none;
+    border: none;
+}
+

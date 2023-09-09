@@ -17,11 +17,20 @@ li {
     line-height: 3rem;
 }
 
+.nav-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#verticalMenu {
+    transition: all .4s ease;
+}
+
 .btn-menu {
     width: 40px;
     height: 40px;
     top: 20px;
-    left: 260px;
+    left: 20px;
     font-size: 2rem;
     position:fixed;
     background: #101010;
@@ -33,6 +42,7 @@ li {
     justify-content: center;
     cursor: pointer;
     z-index: 11000;
+    transition: all .4s ease;
 }
 .btn-menu:hover {
     box-shadow: 0 0 25px #d9ad26;
@@ -64,6 +74,7 @@ li {
     height: 100vh;
     background-color: #000000;
     position: fixed;
+    left: -250px;
     z-index: 10000;
 }
 

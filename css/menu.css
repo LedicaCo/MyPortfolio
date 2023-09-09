@@ -12,7 +12,7 @@ a {
     text-decoration: none;
     font-family: 'Comfortaa';
 }
-li {
+.nav-item {
     list-style: none;
     line-height: 3rem;
 }
@@ -125,12 +125,14 @@ li {
     border: none;
     background: #202020;
     color: #bab9b9;
+    padding: 2px;
     border-radius: 3px;
     font-family: 'Comfortaa';
+    cursor: pointer;
 }
 
 .input-option {
     outline: none;
     border: none;
-}
+} 
 

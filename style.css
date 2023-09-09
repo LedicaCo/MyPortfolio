@@ -778,9 +778,9 @@ border-radius: 0.5em;
  
 .work__title {
      font-family: 'Comfortaa';
-     font-size: 1.5em;
-     font-weight: bold;
-     color: goldenrod;
+     /* font-size: 1em; */
+     /* font-weight: bold; */
+     color: #bab9b9;
      text-align: left !important;
  }
  
@@ -790,6 +790,7 @@ border-radius: 0.5em;
      padding: 10px 0;
      font-family: 'Comfortaa';
      font-size: 14px;
+     line-height: 1.3em;
  }
  
  .btn__container {
@@ -804,16 +805,19 @@ border-radius: 0.5em;
      width: 100px;
      padding: 7px 20px;
      border-radius: 0.3em;
-     border: none;
+     border: 0.5px solid #d9ad26;
      outline: none;
-     background-color: #940253;
-     color: ghostwhite;
+     background-color: none;
+     color: #d9ad26;
      font-family: 'Comfortaa';
      text-decoration: none;
  }
  
  .btn__footer:hover {
-     background-color: #FF1493;
+     background-color: #d9ad26;
+     color: #181818;
+     border: none;
+     box-shadow: 0 0 25px #d9ad26;
     transition: all .3s ease;     
  }
  
@@ -1246,7 +1250,7 @@ border-radius: 0.5em;
 .card {
     display: inline-block;
     position: relative;
-    border: 2px solid #940253;
+    border: 1px solid #d9ad26;
     border-radius: 0.5em;
   }
   
@@ -1263,23 +1267,36 @@ border-radius: 0.5em;
     bottom: 0;
     left: 0;
     width: 100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.9);
     color: #fff;
     padding: 10px;
     transform: translateY(100%);
     opacity: 0;
     transition: transform 0.3s ease, opacity 0.3s ease;
-    border: 2px solid #940253;
+    /* border: 2px solid #940253; */
   }
   
   .card:hover img {
     opacity: 0.7;
   }
   
+  .project-title {
+      font-family: 'Comfortaa';
+      color: #d9ad26;
+      font-size: 0.9em;
+      font-weight: 400;
+  }
+  .description-title {
+    font-family: 'Comfortaa';
+    color: #d9ad26;
+  }
+  
   .card:hover .card-info {
     transform: translateY(0);
     opacity: 1;
   }
+  
   
   .card-info h4 {
     margin: 0;

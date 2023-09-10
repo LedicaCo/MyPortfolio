@@ -40,6 +40,7 @@ html {
 
 body {
     position: relative;
+    background-color: #101010;
 }
 
 /*--SECTION HOME--*/
@@ -182,24 +183,32 @@ body {
 
 .home .section__content .info .btn__cv {
     padding: 9px 15px;
-    background-color: #000;
+    background: #000;
     width: 150px;
     margin: auto;
+    color: #d9ad26;
     border: 1px solid #d9ad26;
-    border-radius: 0.3em;
-    box-shadow: 0 0 20px #d9ad26;
+    border-radius: 0.4em;
+    
 }
 
 .home .section__content .info .btn__cv:hover {
-    background-color: #101010;
-    color: #bab9b9;
-    transition: all 0.3s ease-in-out;
+    background-color: #d9ad26;
+    border: none;
+    outline: none;
+    color: #101010;
+    box-shadow: 0 0 25px #d9ad26;
+    transition: all 0.4s ease;
 }
 
 .home .section__content .info .btn__link {
-    color: #d9ad26;    
+    color: #d9ad26;   
     text-decoration: none;
     font-family: 'Comfortaa';
+}
+.home .section__content .info .btn__link:hover {
+    color: #101010;
+    transition: all 0.4s ease;
 }
 
 
@@ -716,7 +725,7 @@ border-radius: 0.5em;
  /*--MY WORKS --*/
  
  .myworks {
-    background-color: #000;
+    background-color: #101010;
     padding: 70px 0 100px 0;
     text-align: center;
 }
@@ -778,8 +787,6 @@ border-radius: 0.5em;
  
 .work__title {
      font-family: 'Comfortaa';
-     /* font-size: 1em; */
-     /* font-weight: bold; */
      color: #bab9b9;
      text-align: left !important;
  }
@@ -824,7 +831,7 @@ border-radius: 0.5em;
 /*--SUMMARY --*/
 
 .summary {
-    background-color: #101010;
+    background-color: #060606;
     padding: 70px 0 100px 0;
     text-align: center;
 }
@@ -904,107 +911,7 @@ border-radius: 0.5em;
     padding-left: 20px;
 }
 
-/*--SECTION CONTACT ME --*/
-.form__contact {
-    background-color: #202020;
-    padding: 70px 0 100px 0;
-    text-align: center;
-}
 
-.form__contact .section__content {
-    max-width: 1000px;
-    margin: auto;
-    padding: 0 10px;
-}
-
-.form__contact .section__content h2 {
-    font-family: 'Comfortaa';
-}
-
-.form__contact .section__content h3 {
-    padding-bottom: 15px;
-    font-family: 'Comfortaa';
-    color: #bab9b9;
-}
-
-.form__contact .section__content .form {
-    border: 10px solid #000;
-    border-radius: 0.5em;display: grid;
-    grid-template-columns: 1fr;
-}
-
-.form__contact .section__content .form .form__logo {
-    width: 70px;
-    height: 70px;
-    border: 1px solid #000; /* Color del borde, debe ser más oscuro que fondo */
-	background: #000; /* Fondo */
-	border-radius: 50%;  /* Bordes redondos */
-	box-shadow: 0 0 35px #DAA520;
-    display: flex;
-    align-items: center;
-    margin: 30px auto;
-}
-
-.form__contact .section__content .form .form__logo .text__logo {
-    color:#DAA520;
-    font-family: 'Comfortaa';
-    font-size: 2em;
-    font-weight: bold;
-    align-items: center;
-    margin: auto;
-}
-
-.form__contact .section__content {
-    max-width: 1000px;
-    margin: auto;
-    padding: 0 10px;
-}
-
-.form__contact .section__content .form .form-group {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: auto;
-    padding: 0 20px;
-}
-
-.form__contact .section__content .form .form-group .form-label {
-    color: #bab9b9;
-    text-align: left;
-}
-
-.form__contact .section__content .form .form-group .form-control {
-    padding: 10px;
-    background: #101010;
-    outline: none;
-    border: none;
-    margin-top: 5px;
-    color: #bab9b9;
-    border-radius: 7px;
-}
-
-.form__contact .section__content .form .form__btn {
-    border: none;
-    width: 200px;
-    padding: 15px 0;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-radius: 0.5em;
-    color: #d9ad26;
-    background-color: #000;
-    font-family: 'Comfortaa';
-    font-size: 1em;
-    cursor: pointer;    
-}
-
-.form__contact .section__content .form .form__btn:hover {
-    background: #101010;
-    color: #bab9b9;
-    transition: all .3s ease-in-out;
-    cursor: pointer;
-    
-}
 
 .link__email {
     color: ghostwhite;

@@ -181,32 +181,22 @@ body {
     box-shadow: 0 0 20px #fff;
 }
 
-.home .section__content .info .btn__cv {
-    padding: 9px 15px;
-    background: #000;
-    width: 150px;
-    margin: auto;
-    color: #d9ad26;
-    border: 1px solid #d9ad26;
-    border-radius: 0.4em;
-    
+.home .section__content .info .btn__CV {
+    width: 100px;
+     padding: 7px 20px;
+     border-radius: 0.3em;
+     border: 0.5px solid #d9ad26;
+     outline: none;
+     background-color: #000;
+     color: #d9ad26;
+     font-family: 'Comfortaa';
+     text-decoration: none;
 }
-
-.home .section__content .info .btn__cv:hover {
-    background-color: #d9ad26;
+.home .section__content .info .btn__CV:hover {
     border: none;
     outline: none;
-    color: #101010;
+    background: #d9ad26;
     box-shadow: 0 0 25px #d9ad26;
-    transition: all 0.4s ease;
-}
-
-.home .section__content .info .btn__link {
-    color: #d9ad26;   
-    text-decoration: none;
-    font-family: 'Comfortaa';
-}
-.home .section__content .info .btn__link:hover {
     color: #101010;
     transition: all 0.4s ease;
 }
@@ -654,7 +644,7 @@ flex-direction: column;
 }
 
  .card__certificate{
-border: 2px solid #940253;
+border: 1px solid #d9ad26;
 border-radius: 0.5em;
     
 } 
@@ -708,17 +698,21 @@ border-radius: 0.5em;
  .btn__verify {
      padding: 7px 20px;
      border-radius: 0.5em;
-     border: none;
+     border: 1px solid #d9ad26;
      outline: none;
-     background-color: #940253;
-     color: ghostwhite;
+     background-color: none;
+     color: #d9ad26;
      font-family: 'Comfortaa';
      font-weight: bold;
      text-decoration: none;
  }
  
  .btn__verify:hover {
-    box-shadow: 0 0 35px #940253;
+     border: none;
+     outline: none;
+     background: #d9ad26;
+     color: #000;
+    box-shadow: 0 0 25px #d9ad26;
     transition: all .3s ease;     
  }
  
@@ -729,7 +723,7 @@ border-radius: 0.5em;
     padding: 70px 0 100px 0;
     text-align: center;
 }
- 
+  
  .myworks .section__content .section__title {
      color: #d9ad26;
      font-family: 'Comfortaa';
@@ -777,7 +771,7 @@ border-radius: 0.5em;
   
  .divider {
      width: 100%;
-     border-bottom: 1px solid #940253;
+     border-bottom: 1px solid #d9ad26;
  }
  
  .footer__card {
@@ -912,7 +906,6 @@ border-radius: 0.5em;
 }
 
 
-
 .link__email {
     color: ghostwhite;
     text-decoration: none;
@@ -949,7 +942,7 @@ border-radius: 0.5em;
 .header__footer-content .site__map-container .links-item .column__title {
     font-size: 1.5em;
     padding: 15px 0; 
-    color: #d9ad26;   
+    color: #d9ad26;  
 }
 
 .header__footer-content .site__map-container .certificates-item  {
@@ -970,12 +963,14 @@ border-radius: 0.5em;
     padding: 20px;
     display: flex;
     flex-direction: column;
+    line-height: 1.2em; 
 }
 
 .header__footer-content .site__map-container .works-item .column__title {
     font-size: 1.5em;
     padding: 15px 0; 
-    color: #d9ad26;   
+    color: #d9ad26;
+    line-height: 1.2em;   
 }
 
 .header__footer-content .site__map-container .contact-item  {
@@ -1038,6 +1033,7 @@ border-radius: 0.5em;
     color: #bab9b9;
     text-decoration: none;
     font-family: 'Comfortaa';
+    line-height: 1.4em;
 }
 .menu-item:hover {
     color: #d9ad26;

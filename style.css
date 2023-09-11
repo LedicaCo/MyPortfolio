@@ -869,7 +869,7 @@ border-radius: 0.5em;
     color: #bab9b9;
     font-family: 'Comfortaa';
     width: 40%;
-    border-bottom: 1px solid #bab9b9;
+    border-bottom: 1px solid #d9ad26;
 }
 
 .summary .section__content .info .col table h4 {
@@ -900,7 +900,7 @@ border-radius: 0.5em;
 
 .summary .section__content .info .col table .description {
     color: #bab9b9;
-    border-left: 1px solid #bab9b9;
+    border-left: 1px solid #d9ad26;
     font-family: 'Comfortaa';
     padding-left: 20px;
 }

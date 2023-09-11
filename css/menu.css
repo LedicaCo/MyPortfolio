@@ -110,9 +110,22 @@ a {
 /* MULTI LANGUAGE */
 
 .language {
+    display: flex;
+    flex-direction: row;
     margin-left: 25px;
     margin-top: 20px;
+    gap: 5px;
     
+}
+.flags {
+    width: 35px;
+}
+
+.flag-us {
+    width: 100%;
+}
+.flag-sp {
+    width: 100%;
 }
 
 .language-label {
@@ -134,5 +147,6 @@ a {
 .input-option {
     outline: none;
     border: none;
-} 
+}
+ 
 

@@ -1179,6 +1179,19 @@ border-radius: 0.5em;
       z-index: 1;
   }
   
+  .clip-path-fs {
+    background: #d9ad26;
+    box-shadow: 0 0 25px #d9ad26;
+    font-size: 14px;
+    top: 15px;
+    right: -35px;
+    color: #000;
+    padding: 8px 30px;
+    position: absolute;
+    transform:  rotate(45deg);
+    z-index: 1;
+}
+  
   .card-info {
     border-radius: 0.5em;
     position: absolute;

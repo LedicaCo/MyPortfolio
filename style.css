@@ -50,7 +50,8 @@ body {
     url('img/setup-programmer.jpeg');
     background-size: cover;
     background-position: center center;
-    color: #fff;    
+    color: #fff; 
+    height: 400px;   
 }
 
 .home .section__content {
@@ -60,96 +61,24 @@ body {
     padding: 0 10px;
 }
 
-/* .home .section__content header {
-    padding: 30px;    
-} */
-
-/*--Lateral Menu --*/
-
-/* .home .section__content header nav {
-    position: fixed;
-    margin-left: 60px;
-    background-color: #202020;
-    padding: 15px;
-    border-radius: 10px;
-    text-align: left;
-    z-index: 9999;
-    display: none;
-    transition: all .3s ease-in-out;
-} */
-
-/* .home .section__content header nav a{
-    display: block;
-    color: ghostwhite;
-    text-decoration: none;
-    margin-bottom: 10px;
-} */
-
-/* .home .section__content header nav a:hover {
-    color: yellow;
-} */
-
-
-/* ****** */
-
-/*  .home .section__content header .logo {
-    width: 60px;
-    height: 60px;
-    border: 2px solid #d9ad26;
-    border-radius: 50%;
-    box-shadow: 0 0 35px #d9ad26;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Comfortaa';
-    text-shadow: 0 0 35px #fff;
-    margin: 0 auto;
-} */
-
-/* .home .section__content header .logo .text__logo {
-    color: #d9ad26;
-    font-size: 1.5rem;
-    font-family: 'Comfortaa';
-    font-weight: bold;
- */
-
-/* .home .section__content header .nav-bar {
-    position: fixed;
-    background-color: #000;
-    font-size: 20px;
-    width: 45px;
-    height: 45px;
-    border: 2px solid #d9ad26;
-    border-radius: 50%;
-    line-height: 45px;
-    color: #d9ad26;
-    cursor: pointer;
-    transition: 0.3s;
-} */
-
 .home .section__content header .nav-bar:hover {
     box-shadow: 0 0 35px #d9ad26;    
 }
 
-.home .section__content .info {
-    padding-bottom: 130px;
-    padding-top: 100px;
-}
-
-.home .section__content .info h1 {
+.home .sub-section-info .info h1 {
     font-family: 'Comfortaa';
     font-size: 3rem;
     letter-spacing: 5px;
 }
 
-.home .section__content .info h2 {
+.home .sub-section-info .info h2 {
     font-weight: normal;
     font-size: 20px;
     font-family: 'Comfortaa';
     
 }
 
-.home .section__content .info h3 {
+.home .sub-section-info .info h3 {
     font-weight: normal;
     font-size: 1rem;
     font-family: 'Comfortaa';
@@ -157,11 +86,11 @@ body {
     letter-spacing: 1px;
 }
 
-.home .section__content .info .social__networks {
+.home .sub-section-info .info .social__networks {
     margin: 20px 0;
 }
 
-.home .section__content .info .social__networks a {
+.home .sub-section-info .info .social__networks a {
     display: inline-block;
     text-decoration: none;
     background-color: #000;
@@ -175,13 +104,13 @@ body {
     transition: 0.3s;    
 }
 
-.home .section__content .info .social__networks a:hover {
+.home .sub-section-info .info .social__networks a:hover {
     color: #fff;
     background-color: #940253;
     box-shadow: 0 0 20px #fff;
 }
 
-.home .section__content .info .btn__CV {
+.home .sub-section-info .info .btn__CV {
     width: 100px;
      padding: 7px 20px;
      border-radius: 0.3em;
@@ -192,7 +121,7 @@ body {
      font-family: 'Comfortaa';
      text-decoration: none;
 }
-.home .section__content .info .btn__CV:hover {
+.home .sub-section-info .info .btn__CV:hover {
     border: none;
     outline: none;
     background: #d9ad26;
@@ -216,11 +145,13 @@ body {
     transform: translateX(-50%);
 }
 
-.empty {
+.sub-section-info {
     width: 100%;
-    height: 100px;
-    background-color: #101010;
+    height: 350px;
+    background-color: #000;
+    color: #fff;
 }
+
 
 /*--General Styles --*/
 
